@@ -1,0 +1,70 @@
+
+/* var */
+:root {
+    --header: #bb5397;
+    --bkg: #289688;
+    --white: #ffffff;
+    --font: #3d63ba;
+  }
+
+/* textos */
+
+  .header {
+color: var(--header);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 18px;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+   
+  }
+
+
+.title {
+
+color: var(--header);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing: 9,2px;
+margin-bottom: 16px;
+  }
+
+
+p {
+
+    color: var(--font);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height:1.5;
+    
+    
+}
+
+/* img */
+
+.logo {
+
+    text-align: center;
+    
+  
+
+}
+
+
+.pic-pop{
+        
+float: right;
+margin-left: 15px;
+
+}
+.pic-resort{
+
+float: left;
+margin-right: 15px;
+
+
+}
+.pic-lodge{
+
+    float: right;
+    margin-right: 15px;
+
+}
