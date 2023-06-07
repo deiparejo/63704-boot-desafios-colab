@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root { 
+    --blanco: #FFFFFF;
+    --black: #0a0006;
+    --navy-blue: #230184;
+    --rose-bonbon: #e5549a72;
+    --byzantium: #760662;
+    --oxford-blue: #0601259f;
+    --black-bean: #26050e;
+    --orbitron: 'Orbitron', sans-serif;
+  }
+  
+  html { 
+    background: url("../img/image_background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: var(--orbitron);
+    text-align: center;
+    color: var(--blanco);
+
+  }
+
+  header{
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding: 50px;
+  }
+  
+  fieldset{
+    background-color: var(--rose-bonbon);
+    color: var(--blanco);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    border-radius: 1%;
+    box-shadow: 10px 7px 5px var(--black);
+    
+}
+
+legend{
+    text-align: left;
+    border-radius: 3px;
+    padding: 2px;
+    color: var(--blanco);
+    font-weight: 900;
+    
+}
+
+.input1{
+    width: 60%;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.radio1{
+    margin: 10px;
+}
+
+div{
+    text-align: left;
+    margin-left: 15%;
+
+}
+
+button{
+    background-color: var(--rose-bonbon);
+    color: var(--blanco);
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    font-weight: 900;
+    
+   
+}
+
+hr{
+    border: none;
+}
+
+.parrafo{
+    margin-bottom: 10px ;
+}
+#terminos-condiciones{
+    margin-bottom: 20px;
+}
+
+#notificaion{
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--oxford-blue);
+    
+  }
+  
+fieldset:hover {
+    background-color: var(--oxford-blue);
+    box-shadow: 10px 7px 5px var(--black);
+  }
+  
+:focus {
+    background-color: var(--oxford-blue) ;
+    color: var(--black);
+  }
