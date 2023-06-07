@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;900&family=Roboto:wght@100;500;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1: #a6c1b9;
+    --color2: #1f2023;
+    --color3: #4d6d63;
+    --color4: #2b3d37;
+    --whithe: #fff;
+    --color5: #d6e2de ;
+    --color6: #a6c1b9;
+
+
+}
+                                                                /* font-family: 'Poppins', sans-serif; */
+                                                                /* font-family: 'Roboto', sans-serif; */
+body{
+    background-color: var(--color2);
+    color: var(--whithe);
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+   
+    
+}
+
+header{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    font-weight: 100px;
+    border-top: 20px  solid var(--color3);
+    border-left: 20px transparent solid;
+    border-right: 20px transparent solid;
+    border-bottom: 20px solid var(--color3);
+    margin: 35px 15% 30px 15%;
+    font-weight: 900;
+}
+
+
+fieldset{
+    background-color: var(--color5);
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+legend{
+    text-align: left;
+    background-color: var(--color3) ;
+    border-radius: 3px;
+    padding: 2px;
+    
+}
+
+.input1{
+    width: 60%;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.radio1{
+    margin: 10px;
+}
+
+div{
+    text-align: left;
+    margin-left: 15%;
+
+}
+
+button{
+    background-color: var(--color4);
+    color: var(--color5);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--color5);
+   
+}
+
+.cajas1{
+    
+   text-align: left;
+   
+}
+
+hr{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    border-top:  30px dotted var(--color1);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.parrafo{
+    margin-bottom: 10px ;
+}
+#terminos-condiciones{
+    margin-bottom: 20px;
+}
+
+#notificaion{
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    
+  }
+  
+fieldset:hover {
+    background-color: var(--color6);
+  }
+  
+:focus {
+    background-color: var(--color3);
+    color: var(--color1);
+  }
+
+
+
+  

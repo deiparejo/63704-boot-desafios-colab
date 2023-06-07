@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1: #000000;
+    --color2: #68cae3; 
+    --color3: #43bfdf;
+    --color4: #454547;
+    --color5: #09b2d1;
+    --gradient: linear-gradient(90deg, #68cae3 0%, #09b2d1 47%, #43bfdf 100%);
+    
+    
+}   
+
+body{
+    font-family: 'Urbanist', sans-serif;
+    color: var(--color1);
+    text-align: center;
+    font-weight: 900; 
+    background-image: linear-gradient(#00000080, #00000080), url(https://img.freepik.com/vector-premium/fondo-arte-grafiti-abstracto-tirada-garabatos-estilo-etiquetado-dibujado-mano_675911-158.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover ;
+   
+    
+    
+    
+}
+
+header{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    background: var(--gradient);
+    text-align: center;
+    width: 70%;
+    margin: 20px 15% 30px 15%;
+    border-radius: 20px;
+    box-shadow: 10px 7px 5px var(--color4);
+    
+
+}
+                                                            /* font-family: 'Urbanist', sans-serif; */
+
+fieldset{
+    background: var(--gradient);
+    box-shadow: 10px 7px 5px var(--color4);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 45px;
+   
+    
+
+}                                                           
+
+legend{
+    background-color: var(--color2);
+    text-align: right;
+    border-radius: 10px;
+    padding: 20px;
+    color: var(--color1);
+    font-weight: 900;
+}
+
+.input1{
+    width: 60%;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.radio1{
+    margin: 10px;
+}
+
+button{
+    background-color: var(--color4);
+    color: var(--color5);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--color5);
+   
+}
+
+.cajas1{
+    
+    text-align: left;
+    
+ }
+
+ hr{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    border-top:  30px dashed var(--color2);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.parrafo{
+    margin-bottom: 10px ;
+}
+#terminos-condiciones{
+    margin-bottom: 20px;
+}
+
+#notificaion{
+    margin-bottom: 20px;
+}
+
+
+  
+:focus {
+    background-color: var(--color4);
+    color: white;
+  }
+ 
+  div{
+    background-color: var(--color2);
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 20px;
+    box-shadow: 10px 7px 5px var(--color4);
+    padding: 20px;
+  }
+
+
+
